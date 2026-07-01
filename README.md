@@ -141,23 +141,19 @@ Foram adicionados três exemplos completos ao final do prompt, cada um represent
 
 ## 2. Persona Prompting
 
-> A definição de uma persona orienta o modelo a responder sob a perspectiva de um profissional experiente, aumentando a qualidade da linguagem utilizada, a aderência às boas práticas de Product Ownership e a consistência na elaboração das User Stories.
-
 ### Justificativa
 
-Explique por que essa técnica foi escolhida e quais limitações do prompt original ela resolve.
+A definição de uma persona orienta o modelo a responder sob a perspectiva de um profissional experiente, aumentando a qualidade da linguagem utilizada, a aderência às boas práticas de Product Ownership e a consistência na elaboração das User Stories.
 
 ### Como foi aplicada
 
 O prompt inicia definindo que o modelo deve atuar como um Product Owner sênior, responsável por transformar relatos de bugs em User Stories claras e objetivas.
-Exemplo:
 
 ### Como foi aplicada
 
 Foi atribuída ao modelo a função de Product Owner sênior.
 A persona direciona a resposta para práticas utilizadas em equipes ágeis.
 O modelo passou a produzir User Stories com linguagem mais consistente e profissional.
----
 
 # Resultados Finais
 
@@ -166,7 +162,6 @@ O modelo passou a produzir User Stories com linguagem mais consistente e profiss
 **Link público:**
 
 https://smith.langchain.com/public/72ab4849-4140-480f-858e-9373e5f69b6e/d
----
 
 ## Screenshots
 ![PromptEval](images/prompt-eval-langsmith.png)
